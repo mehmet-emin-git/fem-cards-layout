@@ -1,14 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
   font-size: 15px;
-  background: #ddd;
   font-family: "Poppins", sans-serif;
+  background: #fafafa;
+}
+
+p {
+  color: #a3a5ae;
+}
+
+header {
+  max-width: 500px;
+  text-align: center;
+  margin: 50px auto;
+}
+header h1 {
+  font-weight: 200;
+  margin: 0;
+}
+header h1 .bold {
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+.container .box {
+  background-color: white;
+  padding: 30px;
+  width: 350px;
+  margin: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  transition: 0.2s ease-in all;
+  position: relative;
+}
+.container .box:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+.container .box h2 {
+  margin: 0;
+}
+.container .box p {
+  font-size: 14px;
+  margin: 10px 0 30px;
+}
+.container .box img {
+  display: block;
+  margin-left: auto;
+}
+.container .box::after {
+  content: "";
+  height: 5px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.container .box-1::after {
+  background: #45d3d3;
+}
+.container .box-2::after {
+  background: #ea5353;
+}
+.container .box-3::after {
+  background: #549ef2;
+}
+.container .box-4::after {
+  background: #fcaf4a;
+}
+.container .pushed {
+  transform: translateY(50%);
+}
+
+footer {
+  text-align: center;
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
