@@ -98,13 +98,22 @@ header {
   .box-4::after {
     background: $orange;
   }
-
-  .pushed {
-    transform: translateY(50%);
-  }
 }
 
+.pushed {
+  transform: translateY(50%);
+}
 // footer
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 775px) {
+  header {
+    max-width: 400px;
+    margin: 50px 5%;
+  }
+  .pushed {
+    transform: translateY(0%);
+  }
 }

@@ -78,12 +78,24 @@ header h1 .bold {
 .container .box-4::after {
   background: #fcaf4a;
 }
-.container .pushed {
+
+.pushed {
   transform: translateY(50%);
 }
 
 footer {
   text-align: center;
+}
+
+@media screen and (max-width: 775px) {
+  header {
+    max-width: 400px;
+    margin: 50px 5%;
+  }
+
+  .pushed {
+    transform: translateY(0%);
+  }
 }
 
 /*# sourceMappingURL=/style.97fcb138.css.map */
