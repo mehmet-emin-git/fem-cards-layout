@@ -7,16 +7,23 @@ body {
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   background: #fafafa;
+  margin: 0;
 }
 
 p {
   color: #a3a5ae;
 }
 
+a {
+  text-decoration: none;
+  color: #4c4e61;
+}
+
 header {
   max-width: 500px;
   text-align: center;
-  margin: 50px auto;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 header h1 {
   font-weight: 200;
@@ -51,7 +58,7 @@ header h1 .bold {
 }
 .container .box p {
   font-size: 14px;
-  margin: 10px 0 30px;
+  margin: 15px 0 40px;
 }
 .container .box img {
   display: block;
@@ -88,9 +95,17 @@ footer {
 }
 
 @media screen and (max-width: 775px) {
+  .container {
+    width: 90%;
+  }
+
+  .box {
+    padding: 25px;
+    width: 300px;
+  }
+
   header {
-    max-width: 400px;
-    margin: 50px 5%;
+    max-width: 330px;
   }
 
   .pushed {
