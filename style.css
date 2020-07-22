@@ -24,7 +24,11 @@ header {
   max-width: 500px;
   text-align: center;
   margin: 0 auto;
+<<<<<<< HEAD
   padding-top: 6rem;
+=======
+  padding-top: 2rem;
+>>>>>>> 07ab4883f7d9b0703d9df2c502186f2124470287
 }
 
 header h1 {
